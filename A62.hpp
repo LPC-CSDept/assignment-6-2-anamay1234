@@ -44,21 +44,21 @@ void printout(double result)
 }
 
 
-int main ()
-{
-    int n;
-    float result;
+// int main ()
+// {
+//     int n;
+//     float result;
     
-    cout << "What value would you like 2 to be raised to? "; 
-    cin >> n;
+//     cout << "What value would you like 2 to be raised to? "; 
+//     cin >> n;
 
-    if (n > 0)
-    {
-        result = nthpowerp(n);
-    } else if (n < 0) {
-        result = nthpowern(n);
-    }
+//     if (n > 0)
+//     {
+//         result = nthpowerp(n);
+//     } else if (n < 0) {
+//         result = nthpowern(n);
+//     }
 
-    printout(result);
+//     printout(result);
   
-}
+// }
